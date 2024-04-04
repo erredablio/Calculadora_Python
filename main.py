@@ -14,11 +14,11 @@ def subtrair(n1, n2):
     equacao = n1 - n2
     print(f"\n{n1} - {n2} = {equacao}")
 
-def multiplicacao(n1, n2):
+def multiplicar(n1, n2):
     equacao = n1 * n2
     print(f"\n{n1} * {n2} = {equacao}")
 
-def divisao(n1, n2):
+def dividir(n1, n2):
     equacao = n1 / n2
     print(f"\n{n1} / {n2} = {equacao:.2f}")
 
@@ -34,10 +34,10 @@ def calculadora():
             subtrair(n1, n2)
             decisor()
         case "*":
-            multiplicacao(n1, n2)
+            multiplicar(n1, n2)
             decisor()
         case "/":
-            divisao(n1, n2)
+            dividir(n1, n2)
             decisor()
         case _:
             print("Operador inválido")
